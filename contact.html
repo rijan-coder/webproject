@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact NEA - Feedback and Complaint Form</title>
+</head>
+<body>
+
+    <nav>
+        <h1>Nepal Electricity Authority (NEA)</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="services.html">Customer Services</a></li>
+            <li><a href="contact.html">Contact & Complaints</a></li>
+        </ul>
+        <hr>
+    </nav>
+
+    <h2>Report an Issue or Send Feedback</h2>
+    
+    <p>
+        Your feedback is crucial for maintaining and improving the quality of our service. Please use the form below to report issues such as localized power outages, faulty meters, billing discrepancies, or safety hazards related to electric infrastructure. If you are reporting an emergency (like a downed power line), please call our toll-free hotline immediately instead of using this form. For all other non-urgent matters, filling out this form ensures your inquiry is directed to the correct department within the NEA. Please include your distribution branch and account number in the message section for faster processing.
+    </p>
+
+    <form action="submit_nea_complaint.php" method="POST"> 
+        <h3>Complaint and Feedback Form</h3>
+        
+        <label for="full-name">Full Name:</label><br>
+        <input type="text" id="full-name" name="full_name" required><br><br>
+        
+        <label for="subject">Subject (e.g., Power Outage, Faulty Meter, Billing Issue):</label><br>
+        <input type="text" id="subject" name="subject" required><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>     
+        
+        <label for="message">Message Section (Include account/location details):</label><br>
+        <textarea id="message" name="message" rows="7" cols="60" required></textarea><br><br>
+        
+        <input type="submit" value="Submit Complaint">
+        <input type="reset" value="Clear Form">
+    </form>
+
+    <h3>Contact Points</h3>
+    <img src="images/costumer.5.png"alt="A call center worker " width="450"  height="310">
+    <img src="images/customer1.jpg" alt="safety warning sign" width="450"  height="310">
+    <img src="images/customer3.webp" alt="Map of Nepal with transmission lines marked" width="450"  height="310">
+
+    <hr>
+    
+
+
+</body>
+</html>
